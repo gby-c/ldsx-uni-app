@@ -31,6 +31,13 @@
 					"titleNView": false
 				}
 			}
+		},{
+			"path": "pages/editInfo/editInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
 		}
 	],
 	"globalStyle": {
