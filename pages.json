@@ -1,0 +1,76 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/shortVideo/shortVideo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/addVideo/addVideo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/myInfo/myInfo",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#1A1D1E",
+		"selectedColor": "#1296DB",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/indexSelect.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/shortVideo/shortVideo",
+				"iconPath": "static/shortVideo.png",
+				"selectedIconPath": "static/shortVideoSelect.png",
+				"text": "微视"
+			},
+			{
+				"pagePath": "pages/addVideo/addVideo",
+				"iconPath": "static/addVideo.png",
+				"selectedIconPath": "static/addVideoSelect.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/myInfo/myInfo",
+				"iconPath": "static/myInfo.png",
+				"selectedIconPath": "static/myInfoSelect.png",
+				"text": "我的"
+			}
+		]
+		
+	}
+}
